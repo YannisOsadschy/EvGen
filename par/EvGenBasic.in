@@ -16,8 +16,8 @@ TargetLength: 5.0
 #
 BeamSpotRadius: 0.50
 #
-#Throws: 100000
-Throws: 10000
+Throws: 100000
+#Throws: 10000
 #
 # ENERGY
 #     Bite Lo Step Bins
@@ -27,8 +27,8 @@ ParticleEnergy: 2 300 15 1
 # POLAR ANGLE
 #     Value Bite
 #LabTheta: 0 1
-LabTheta: 0 5
+LabTheta: 40 1
 #
 # AZIMUTHAL ANGLE
 #     Value Bite
-LabPhi: 0 360
+LabPhi: 180 1

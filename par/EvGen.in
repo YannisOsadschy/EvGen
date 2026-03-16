@@ -1,20 +1,20 @@
 #
 # Input for EvGenComp and EvGenPi0
 #
-Process: compton
-#Process: pi0
+#Process: compton
+Process: pi0
 #Process: eta
 #
-Target: p
-#Target: c
+#Target: p
+Target: c
 #Target: w
 #Target: he3
 #Target: he4
 #
 #TargetLength: 40.0
 #TargetLength: 10.0
-TargetLength: 5.0
-#TargetLength: 2.0
+#TargetLength: 5.0
+TargetLength: 2.0
 #TargetLength: 0.1
 #
 BeamSpotRadius: 0.5
@@ -28,16 +28,18 @@ PhotAsym: 1.0
 PhiOffset: 0
 #
 #Throws: 100
-#Throws: 10000
-Throws: 100000
-#Throws: 1000000
+#Throws: 50000
+#Throws: 100000
+#Throws: 200000
+Throws: 1000000
+#Throws: 10000000
 # 
 # ENERGY
 #     Bite Lo Step Bins
 #Energy: 1 150 15 5
 #Energy: 2 200 10 1
+#Energy: 2 1000 10 1
 Energy: 2 300 10 1
-#Energy: 2 320 10 1
 #Energy: 2 500 10 1
 #Energy: 2 250 10 1
 #Energy: 2 320 10 1
